@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlnDepends", "SlnDepends.csproj", "{943683A8-E55A-4116-82D5-8F7E545AFF98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tsuit", "tsuit\tsuit.csproj", "{59216088-0B79-41B8-B0C2-A1CACE8536EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{943683A8-E55A-4116-82D5-8F7E545AFF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943683A8-E55A-4116-82D5-8F7E545AFF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943683A8-E55A-4116-82D5-8F7E545AFF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943683A8-E55A-4116-82D5-8F7E545AFF98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59216088-0B79-41B8-B0C2-A1CACE8536EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59216088-0B79-41B8-B0C2-A1CACE8536EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59216088-0B79-41B8-B0C2-A1CACE8536EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59216088-0B79-41B8-B0C2-A1CACE8536EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

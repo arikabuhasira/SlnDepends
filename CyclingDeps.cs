@@ -90,8 +90,11 @@ namespace System.Collections.Extensions
                     var path = new CyclePath<T>();
 
                     var it = stack.GetEnumerator();// climb 
+                    path.Add(node);
                     while (it.MoveNext() && !cmp.Equals(it.Current.Key, node))
                         path.Add(it.Current.Key);
+                    path.Add(node);
+                    path.Reverse();
                     cycles.Add(path);
                     break;
                 case VisitState.NotVisited:
@@ -109,11 +112,4 @@ namespace System.Collections.Extensions
         }
     }
 
-
-    class Tests
-    {
-        private static string test1 = @"a->b;b->c;c->d";
-        private static string test2 = @"a->b;b->c;c->a";
-        private static string test3 = @"a->b,c,d; b->e,c; c->e,f; f->a;";
-    }
 }
